@@ -1,0 +1,28 @@
+
+.content {
+  width: 100%;
+  height: 1000px;
+}
+.header {
+  background-color: #ccc0ae;
+  font-size: 100px;
+  text-align: center;
+  font-family: sans-serif
+}
+
+.backgrond{
+
+  background-color: #fff3e0;
+  padding: 1000px;
+
+}
+
+.textkitcat{
+  
+  background-color: #fff3e0;
+  color: black ;
+  text-align: center;
+  font-size:600%;
+
+}
+

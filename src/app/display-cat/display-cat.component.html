@@ -1,0 +1,21 @@
+<div class="content">
+	<div>
+		<div>
+			{{ Catmember.Price}}
+		</div>
+		<div>
+			{{ Catmember.Breed }}
+		</div>
+		<div>
+			{{ Catmember.Age }}
+		</div>
+		<div>
+			{{ Catmember.Detail }}
+		</div>
+		<div>
+			<img [src]="Catmember.pic">
+    </div>
+			<div><button (click)='edit(Catmember.id)'>Edit</button></div>
+      <div><button (click) = 'delete()'>Delete</button>
+		</div>
+	</div>

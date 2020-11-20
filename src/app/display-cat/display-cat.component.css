@@ -1,0 +1,30 @@
+.content{
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.header {
+  background-color: #ccc0ae;
+  font-size: 100px;
+  text-align: center;
+  font-family: sans-serif
+}
+
+.backgrond{
+
+  background-color: #fff3e0;
+  padding: 1000px;
+
+}
+
+.textkitcat{
+  
+  background-color: #fff3e0;
+  color: black ;
+  text-align: center;
+  font-size:600%;
+
+}

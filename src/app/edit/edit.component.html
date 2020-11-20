@@ -1,0 +1,38 @@
+
+<div class="add">KitCat</div>
+
+<!-- <div class = "img">
+<form action="/action_page.php">
+  <label for="img"> Select image: </label>
+  <!--input type ="file" id="img" name="img" accept ="image/*"-->
+  <!-- <input type="file" (change)="onFileSelected($event)"/><br> -->
+  <!-- <input type="Submit" (click)="addPic()"> -->
+<!-- </form> -->
+<!-- </div> -->
+<div class = "input1">
+  <form [formGroup]="form_edit_cat">
+    <label>Breed</label>
+    <input type="text" formControlName="new_breed"><br>
+
+    <label>Age</label>
+    <input type="number" formControlName="new_age"><br>
+
+    <label>Price</label>
+    <input type="number" formControlName="new_price"><br>
+
+    <label>Detail</label>
+    <input type="text" formControlName="new_detail"><br>
+
+    
+
+  </form>
+</div>
+
+<div class = "sub">
+ <input type="submit" value="Submit"(click)="edit(Cats.id)">
+</div>
+<div class="catpic"><br>
+  <img src="https://media1.tenor.com/images/59d2de2a62ff90618cb6ac405f453d45/tenor.gif?itemid=16835623" width = "250" height = "" alt="cat1">
+	<br>
+</div>
+	<div class="backgrond"></div>

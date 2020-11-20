@@ -1,0 +1,17 @@
+
+.add {
+  background-color: #fff3e0;
+  font-size: 100px;
+  text-align: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  justify-content: center;
+  display: flex;
+}
+nav a:hover {
+  color: blue;
+  text-decoration: underline;
+}
